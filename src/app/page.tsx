@@ -93,12 +93,7 @@ export default function Home() {
             ))}
           </ul>
 
-          <div className="mt-12 flex flex-wrap items-center gap-x-6 gap-y-4">
-            <span className="inline-flex h-12 items-center rounded-full bg-lime px-7 font-semibold text-lime-ink">
-              Бета для iPhone
-            </span>
-            <span className="text-sm text-ink-3">Возможны ошибки, с VPN бывают проблемы.</span>
-          </div>
+          <p className="mt-12 text-sm text-ink-3">Возможны ошибки, с VPN бывают проблемы.</p>
         </section>
 
         <div className="relative hidden justify-center lg:flex">
