@@ -43,7 +43,7 @@ export default function Home() {
       {/* Фон как у экрана приветствия: тёмный с лаймовым подтоном и лаймовой дугой справа внизу */}
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-[radial-gradient(120%_80%_at_20%_0%,#18200f_0%,#0d110b_45%,#0a0a0a_100%)]" />
-        <div className="absolute -right-[200px] -bottom-[300px] size-[420px] lg:-right-[360px] lg:-bottom-[560px] lg:size-[960px] rounded-full bg-[radial-gradient(circle_at_30%_25%,#e8ff8a_0%,#cdfa00_35%,#9bbf00_100%)] shadow-[0_0_120px_rgb(205_250_0/0.35)]" />
+        <div className="absolute -right-[200px] -bottom-[300px] size-[420px] rounded-full lg:hidden bg-[radial-gradient(circle_at_30%_25%,#e8ff8a_0%,#cdfa00_35%,#9bbf00_100%)] shadow-[0_0_120px_rgb(205_250_0/0.35)]" />
       </div>
 
       <header className="mx-auto w-full max-w-6xl px-6 pt-8 sm:px-10 sm:pt-10">
