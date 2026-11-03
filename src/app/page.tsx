@@ -46,9 +46,8 @@ export default function Home() {
         <div className="absolute -right-[200px] -bottom-[300px] size-[420px] lg:-right-[360px] lg:-bottom-[560px] lg:size-[960px] rounded-full bg-[radial-gradient(circle_at_30%_25%,#e8ff8a_0%,#cdfa00_35%,#9bbf00_100%)] shadow-[0_0_120px_rgb(205_250_0/0.35)]" />
       </div>
 
-      <header className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 pt-8 sm:px-10 sm:pt-10">
+      <header className="mx-auto w-full max-w-6xl px-6 pt-8 sm:px-10 sm:pt-10">
         <Image src={wordmark} alt="tipo," priority className="h-auto w-28 sm:w-36" />
-        <span className="text-xs font-semibold tracking-[0.2em] text-ink-2">БЕТА</span>
       </header>
 
       <main className="mx-auto grid w-full max-w-6xl flex-1 items-center gap-10 px-6 py-10 sm:px-10 lg:grid-cols-[1.1fr_0.9fr]">
